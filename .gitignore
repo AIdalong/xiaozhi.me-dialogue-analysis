@@ -1,6 +1,6 @@
 # 数据文件（包含隐私，不入库）
 raw/
-*.json
+raw/*.json
 user_messages.txt
 transcript.txt
 output/
@@ -16,7 +16,6 @@ node_modules/
 # OS
 .DS_Store
 
-# 环境变量与密钥
+# 凭据与密钥
 .env
 *.token
-*token*.json
