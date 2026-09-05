@@ -1,0 +1,22 @@
+# 数据文件（包含隐私，不入库）
+raw/
+*.json
+user_messages.txt
+transcript.txt
+output/
+state/
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+
+# 环境变量与密钥
+.env
+*.token
+*token*.json
